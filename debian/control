@@ -10,7 +10,7 @@ Section: libraries
 Architecture: all
 XBSC-Group: DisplayCore
 XBSC-Subgroup: Icons
-Depends: libdisplaycore-core
+Depends: libdisplaycore-core, libdisplaycore-toolkit-monoicon
 Provides: Iconic.h
 Description: Iconic library
  Iconic icon set in 6 zoom sizes for MonoIcon widget system
