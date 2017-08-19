@@ -9,7 +9,7 @@ Package: libdisplaycore-icons-iconic
 Section: libraries
 Architecture: all
 XBSC-Group: DisplayCore
-XBSC-Subgroup: Toolkits
+XBSC-Subgroup: Icons
 Depends: libdisplaycore-core
 Provides: Iconic.h
 Description: Iconic library
