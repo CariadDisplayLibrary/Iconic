@@ -1,0 +1,19 @@
+Source: libdisplaycore-icons-iconic
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-icons-iconic
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Toolkits
+Depends: libdisplaycore-core
+Provides: Iconic.h
+Description: Iconic library
+ Iconic icon set in 6 zoom sizes for MonoIcon widget system
+
+
+
