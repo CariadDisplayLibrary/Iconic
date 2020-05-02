@@ -1,16 +1,17 @@
-Source: libdisplaycore-icons-iconic
+Source: libcariad-icons-iconic
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-icons-iconic
+Package: libcariad-icons-iconic
+Replaces: libdisplaycore-icons-iconic
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Icons
-Depends: libdisplaycore-core, libdisplaycore-toolkit-monoicon
+Depends: libcariad-core, libcariad-toolkit-monoicon
 Provides: Iconic.h
 Description: Iconic
  Iconic icon set in 6 zoom sizes for MonoIcon widget system
